@@ -1,0 +1,19 @@
+s=input()
+t=int(input())
+p=int(input())
+l='0'
+l+=s
+ll=''
+if t==1:
+    for i in range(len(s)+1):
+        if i%p==0:
+            ll+=l[i].lower()
+        else:
+            ll+=l[i]
+elif t==2:
+    for i in range(len(s)+1):
+        if i%p==0:
+            ll+=l[i].upper()
+        else:
+            ll+=l[i]
+print(ll[1:])
