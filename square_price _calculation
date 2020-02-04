@@ -1,0 +1,20 @@
+class sq:
+    def __init__(self):
+        self.price=50000
+    def area(self,s):
+        self.ar=s*s
+        print("area:",self.ar)
+    def permit(self,s):
+        self.peri=4*s
+        print("permit:",self.peri)
+    def cost(self,s):
+        self.pri=s*self.price
+        print(self.pri)
+s=int(input())
+ss=sq()
+ss.area(s)
+ss.area(s)
+ss.cost(s)
+        
+        
+                
