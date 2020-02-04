@@ -1,0 +1,12 @@
+class bank:
+    def __init__(self):
+        self.balance=100
+    def withdraw(self,amount):
+        self.balance-=amount
+        print(self.balance)
+    def deposit(self,amount):
+        self.balance+=amount
+        print(self.balance)
+b=bank()
+b.withdraw(500)
+b.deposit(700)
