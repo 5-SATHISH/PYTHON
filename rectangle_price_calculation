@@ -1,0 +1,18 @@
+class rect:
+    def __init__(self):
+        self.price=50000
+    def area(self,w,l):
+        self.ar=w*l
+        print("area:",self.ar)
+    def permit(self,w,l):
+        self.peri=2(l+w)
+        print("permit:",self.peri)
+    def cost(self,w,l):
+        self.pri=w+l*self.price
+        print(self.pri)
+w=int(input())
+l=int(input())
+ss=rect()
+ss.area(w,l)
+ss.area(w,l)
+ss.cost(w,l)
